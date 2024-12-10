@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden !important;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #0D0023;
+    --secondary-color: #250D4E;
+    --tertiary-color: #462879;
+    --quaternary-color: #7052A3;
+    --quinary-color: #A189CE;
+    --white-color: #F2F2F2;
+    --text-color: #333;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+.migasdepan {
+    margin: 1em;
+}
+
+.migasdepan ol {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.migasdepan li a {
+    text-decoration: none;
+}
+
+.migasinicio {
+    color: var(--secondary-color);
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.navbar a:hover, .navbar button:hover {
+    transform: translateY(-2px);
+    transition: transform 0.2s ease;
+}

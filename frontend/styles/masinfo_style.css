@@ -1,0 +1,62 @@
+
+h1 {
+    text-align: center;
+    margin: 1em 0;
+}
+
+.recuadro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: var(--quinary-color);
+    text-decoration: none;
+    font-weight: 300;
+    padding: 10px;
+    margin: 0 1em;
+    transition: all 500ms ease-in-out;
+    cursor: pointer;
+}
+
+.card svg {
+    height: 8em;
+    width: 8em;
+    margin-bottom: 1em;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+}
+
+.terminos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    color: var(--text-color);
+}
+
+.terminos {
+    text-align: justify;
+}
+
+.terminos h3 {
+    text-align: start;
+    font-size: 1.2rem;
+    color: var(--tertiary-color);
+}
+
+@media (max-width: 920px){ 
+    .terminos-container {
+        width: 80%;
+    }
+}
